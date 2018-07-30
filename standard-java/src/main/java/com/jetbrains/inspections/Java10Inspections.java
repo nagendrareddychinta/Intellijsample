@@ -22,7 +22,7 @@ public class Java10Inspections {
     }
 
     private void suggestionProvidedIfTypesMatch() {
-        ArrayList<Person> people = new ArrayList<Person>();
+        var people = new ArrayList<Person>();
     }
 
     private void suggestionNotProvidedIfInterfaceUsed() {
